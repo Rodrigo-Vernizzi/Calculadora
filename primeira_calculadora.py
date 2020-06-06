@@ -1,5 +1,5 @@
-from bn import calcular_segundo_grau
 
+import bn
 
 def escrever_titulo():
     print('CCCCC      A     L      CCCCC   U   U   L         A     DDDD   OOOOO  RRRR     A')
@@ -138,14 +138,14 @@ def solucionar(conta):
 
 def main():
     escrever_titulo()
-    tipo_conta==input('digite aqui: ')
-    if tirar_parenteses==C:
+    tipo_conta=input('digite aqui: ')
+    if tipo_conta=='C':
         escrever_titulo_conta_normal()
         conta=input('conta: ').split()
         solucao=solucionar(conta)
         print(f' resultado: {solucao}')
-    if tipo_conta==S:
-        calcular_segundo_grau()
+    if tipo_conta=='S':
+        bn.calcular_segundo_grau()
 
 
 
