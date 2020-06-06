@@ -27,6 +27,6 @@ def calcular_segundo_grau():
 
         print(f'As raizes são {x1_sg}, {x2_sg}')
 
-calcular_segundo_grau()
+
 
 
