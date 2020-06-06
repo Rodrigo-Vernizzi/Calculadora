@@ -1,9 +1,15 @@
+from bn import calcular_segundo_grau
+
+
 def escrever_titulo():
     print('CCCCC      A     L      CCCCC   U   U   L         A     DDDD   OOOOO  RRRR     A')
     print('C         A A    L      C       U   U   L        A A    D   D  O   O  R  R    A A')
     print('C        AAAAA   L      C       U   U   L       AAAAA   D   D  O   O  RRRR   AAAAA')
     print('CCCCC   A     A  LLLLL  CCCCC   UUUUU   LLLLL  A     A  DDDD   OOOOO  R  R  A     A')
     print('')
+    print('dgite C para conta normal e S para equacao de segundo grau')
+
+def escrever_titulo_conta_normal():
     print('apenas use numeros, e as operacoes +,-,x,/,(,),!')
     print('')
     print('deixe um espaço entre todos os termos e operacoes')
@@ -132,9 +138,14 @@ def solucionar(conta):
 
 def main():
     escrever_titulo()
-    conta=input('conta: ').split()
-    solucao=solucionar(conta)
-    print(f' resultado: {solucao}')
+    tipo_conta==input('digite aqui: ')
+    if tirar_parenteses==C:
+        escrever_titulo_conta_normal()
+        conta=input('conta: ').split()
+        solucao=solucionar(conta)
+        print(f' resultado: {solucao}')
+    if tipo_conta==S:
+        calcular_segundo_grau()
 
 
 
