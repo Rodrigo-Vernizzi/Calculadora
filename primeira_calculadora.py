@@ -1,8 +1,8 @@
 def escrever_titulo():
-    print('#####      #     #      #####   #   #   #         #     ####   #####  ####     #')
-    print('#         # #    #      #       #   #   #        # #    #   #  #   #  #  #    # #')
-    print('#        #####   #      #       #   #   #       #####   #   #  #   #  ####   #####')
-    print('#####   #     #  #####  #####   #####   #####  #     #  ####   #####  #  #  #     #')
+    print('CCCCC      A     L      CCCCC   U   U   L         A     DDDD   OOOOO  RRRR     A')
+    print('C         A A    L      C       U   U   L        A A    D   D  O   O  R  R    A A')
+    print('C        AAAAA   L      C       U   U   L       AAAAA   D   D  O   O  RRRR   AAAAA')
+    print('CCCCC   A     A  LLLLL  CCCCC   UUUUU   LLLLL  A     A  DDDD   OOOOO  R  R  A     A')
     print('')
     print('apenas use numeros, e as operacoes +,-,x,/,(,),!')
     print('')
