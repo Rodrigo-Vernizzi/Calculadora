@@ -1,5 +1,8 @@
 def escrever_titulo():
-    print('CALCULADORA DO TOBIAS ------------------------')
+    print('#####      #     #      #####   #   #   #         #     ####   #####  ####     #')
+    print('#         # #    #      #       #   #   #        # #    #   #  #   #  #  #    # #')
+    print('#        #####   #      #       #   #   #       #####   #   #  #   #  ####   #####')
+    print('#####   #     #  #####  #####   #####   #####  #     #  ####   #####  #  #  #     #')
     print('')
     print('apenas use numeros, e as operacoes +,-,x,/,(,),!')
     print('')
