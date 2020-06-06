@@ -8,6 +8,8 @@ def escrever_titulo():
     print('CCCCC   A     A  LLLLL  CCCCC   UUUUU   LLLLL  A     A  DDDD   OOOOO  R  R  A     A')
     print('')
     print('dgite C para conta normal e S para equacao de segundo grau')
+    print('ou difite F para finalizar')
+    print('')
 
 def escrever_titulo_conta_normal():
     print('apenas use numeros, e as operacoes +,-,x,/,(,),!')
@@ -137,15 +139,19 @@ def solucionar(conta):
 
 
 def main():
-    escrever_titulo()
-    tipo_conta=input('digite aqui: ')
-    if tipo_conta=='C':
-        escrever_titulo_conta_normal()
-        conta=input('conta: ').split()
-        solucao=solucionar(conta)
-        print(f' resultado: {solucao}')
-    if tipo_conta=='S':
-        bn.calcular_segundo_grau()
+    while True:
+        escrever_titulo()
+        tipo_conta=input('digite aqui: ')
+        if tipo_conta=='F':
+            break
+        if tipo_conta=='C':
+            escrever_titulo_conta_normal()
+            conta=input('conta: ').split()
+            solucao=solucionar(conta)
+            print('')
+            print(f' resultado: {solucao}')
+        if tipo_conta=='S':
+            bn.calcular_segundo_grau()
 
 
 
