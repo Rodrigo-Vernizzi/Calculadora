@@ -17,7 +17,7 @@ def calcular_segundo_grau():
         print(f'A raiz é {x}')
 
 
-    if  b**2 -4 * a * c << 0:
+    if  b**2 -4 * a * c < 0:
         print('Não existe raizes reais')
 
     elif a != 0:
