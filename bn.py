@@ -1,7 +1,7 @@
 
 
 def calcular_segundo_grau():
-    import math
+
 
 
 
@@ -22,8 +22,8 @@ def calcular_segundo_grau():
 
     elif a != 0:
 
-        x1_sg = (-b + math.sqrt(b**2 -4 * a * c)) / (2*a)
-        x2_sg = (-b - math.sqrt(b**2 -4 * a * c)) / (2 * a)
+        x1_sg = (-b + (b**2 -4 * a * c)**(1/2)) / (2*a)
+        x2_sg = (-b - (b**2 -4 * a * c)**(1/2)) / (2 * a)
 
         print(f'As raizes são {x1_sg}, {x2_sg}')
 
