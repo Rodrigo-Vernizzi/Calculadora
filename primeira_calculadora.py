@@ -123,37 +123,3 @@ def solucionar(conta):
     print(conta)        
     solucao=conta[0]
     return solucao
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def main():
-    while True:
-        escrever_titulo()
-        tipo_conta=input('digite aqui: ')
-        if tipo_conta=='F':
-            break
-        if tipo_conta=='C':
-            escrever_titulo_conta_normal()
-            conta=input('conta: ').split()
-            solucao=solucionar(conta)
-            print('')
-            print(f' resultado: {solucao}')
-        if tipo_conta=='S':
-            bn.calcular_segundo_grau()
-
-
-
-
-main()
