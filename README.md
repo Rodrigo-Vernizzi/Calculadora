@@ -1,14 +1,11 @@
 # Calculadora
-Esse é o primeiro projeto que fizemos em diversas linguagens.
+Fizemos uma especie de calculadora para aprimorar nossos conhecimentos.
 
 Feito por Rodrigo Vernizzi e Tobias Zorzetto.
 
 
 
-
-
-This was the first project developed using more than 1 programming language.
-
+We programmed a certain calculator programm to improve our knowledge
 Programmed by Rodrigo Vernizzi and Tobias Zorzetto
 
 
